@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="invalidLogin"
+    errors="1" failures="0" hostname="" id="" package="invalidLogin" skipped="0"
+    tests="1" time="0.000" timestamp="">
+  
+    <testcase name="Invalid Login Tests" classname="invalidLogin" time="0.000" assertions="0">
+    <error message="browser.page.homePage is not a function" type="error"><![CDATA[
+    TypeError: browser.page.homePage is not a function
+    at Object.Invalid Login Tests (/Users/elizabeth.perez/Documents/todoist-project/tests/invalidLogin.js:7:34)
+    at Context.call (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/testsuite/context.js:375:35)
+    at TestCase.run (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/testsuite/testcase.js:53:31)
+    at Runnable.__runFn (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/testsuite/index.js:376:80)
+    at Runnable.run (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/testsuite/runnable.js:123:21)
+    at TestSuite.createRunnable (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/testsuite/index.js:443:33)
+    at TestSuite.handleRunnable (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/testsuite/index.js:448:18)
+    at /Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/testsuite/index.js:376:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async DefaultRunner.runTestSuite (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/runner/test-runners/default.js:68:7)
+    at async DefaultRunner.promiseFn (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/runner/test-runners/default.js:95:7)
+    at async DefaultRunner.promiseFn (/Users/elizabeth.perez/Documents/todoist-project/node_modules/nightwatch/lib/runner/test-runners/default.js:100:9)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TypeError: browser.page.homePage is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at Object.Before (/Users/elizabeth.perez/Documents/todoist-project/tests/addTask.js:8:34)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  TypeError: browser.page.homePage is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at Object.Invalid Login Tests (/Users/elizabeth.perez/Documents/todoist-project/tests/invalidLogin.js:7:34)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+  TypeError: browser.page.homePage is not a function
+   - verify if page objects are setup correctly, check &#34;page_objects_path&#34; in your config
+       at Object.Valid Login Test (/Users/elizabeth.perez/Documents/todoist-project/tests/validLogin.js:7:34)
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
