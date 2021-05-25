@@ -33,5 +33,5 @@ jobs:
         uses: actions/checkout@v1
       - name: Install Nigthwatch BrowserStack plugin
         run: npm install nightwatch-browserstack
-      - name: Run Windows 10 Chrome@84.0 test
-        uses: browserstack/github-actions@v1.0.1
+      - name: run
+        run: npm run test
