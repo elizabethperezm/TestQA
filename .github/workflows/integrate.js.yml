@@ -34,6 +34,4 @@ jobs:
       - name: Install Nigthwatch BrowserStack plugin
         run: npm install nightwatch-browserstack
       - name: Run Windows 10 Chrome@84.0 test
-        uses: browserstack/github-actions/setup-local@master
-        with:
-            args: "'browserstack:chrome@84.0:Windows 10' tests"
+        uses: browserstack/github-actions@v1.0.1
