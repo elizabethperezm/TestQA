@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="validLogin"
+    errors="0" failures="0" hostname="" id="" package="validLogin" skipped="0"
+    tests="1" time="7.315" timestamp="">
+  
+    <testcase name="Valid Login Test" classname="validLogin" time="7.315" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+    <system-err>
+        TimeoutError: An error occurred while running .click() command on &lt;Element [name=@addtaskIcon]&gt;:   (Session info: chrome=90.0.4430.212),  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Mac OS X 10.15.7 x86_64); element click intercepted: Element &lt;span class=&#34;icon_add&#34; aria-hidden=&#34;true&#34;&gt;...&lt;/span&gt; is not clickable at point (369, 134). Other element would receive the click: &lt;div class=&#34;GB_overlay&#34; style=&#34;z-index: 9995; opacity: 0.8; width: 100%; height: 890px;&#34;&gt;&lt;/div&gt;
+   {&#34;status&#34;:-1,&#34;state&#34;:&#34;&#34;,&#34;code&#34;:&#34;&#34;,&#34;value&#34;:{&#34;message&#34;:&#34;element click intercepted: Element &lt;span class=\&#34;icon_add\&#34; aria-hidden=\&#34;true\&#34;&gt;...&lt;/span&gt; is not clickable at point (369, 134). Other element would receive the click: &lt;div class=\&#34;GB_overlay\&#34; style=\&#34;z-index: 9995; opacity: 0.8; width: 100%; height: 890px;\&#34;&gt;&lt;/div&gt;&#34;,&#34;error&#34;:[&#34;  (Session info: chrome=90.0.4430.212)&#34;,&#34;  (Driver info: chromedriver=90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}),platform=Mac OS X 10.15.7 x86_64)&#34;]},&#34;errorStatus&#34;:64,&#34;error&#34;:&#34;An unknown error has occurred – element click intercepted: Element &lt;span class=\&#34;icon_add\&#34; aria-hidden=\&#34;true\&#34;&gt;...&lt;/span&gt; ...&#34;,&#34;httpStatusCode&#34;:200}
+       at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

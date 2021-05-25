@@ -6,8 +6,8 @@
   "scripts": {
     "test": "nightwatch",
     "lint": "eslint ./",
-    "test:browserstackWindows": "nightwatch -c nightwatch.browserstack.conf.js -e Windows"
-
+    "test:browserstackWindows": "nightwatch -c nightwatch.browserstack.conf.js -e Windows",
+    "testapi": "newman run 'Backend/Collection/TODOIST.postman_collection.json' -e 'Backend/environment/EnvTODOIST.postman_environment.json' -r htmlextra --reporter-htmlextra-export 'Backend/Reports'"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,8 @@
   "dependencies": {
     "chromedriver": "^90.0.0",
     "dotenv": "^8.2.0",
+    "newman": "^5.2.3",
+    "newman-reporter-htmlextra": "^1.20.4",
     "nightwatch": "^1.6.3"
   },
   "devDependencies": {

@@ -5,9 +5,9 @@
 
   <testsuite name="addTask"
     errors="0" failures="0" hostname="" id="" package="addTask" skipped="0"
-    tests="3" time="153.0" timestamp="">
+    tests="3" time="139.9" timestamp="">
   
-    <testcase name="Before" classname="addTask" time="15.88" assertions="8">
+    <testcase name="Before" classname="addTask" time="12.96" assertions="8">
 
     
 
@@ -26,7 +26,7 @@
     
     </testcase>
   
-    <testcase name="Add a Task" classname="addTask" time="12.65" assertions="5">
+    <testcase name="Add a Task" classname="addTask" time="11.30" assertions="5">
 
     
 
@@ -39,7 +39,7 @@
     
     </testcase>
   
-    <testcase name="Add multiple Task" classname="addTask" time="124.4" assertions="30">
+    <testcase name="Add multiple Task" classname="addTask" time="115.7" assertions="30">
 
     
 
