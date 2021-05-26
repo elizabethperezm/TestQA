@@ -7,7 +7,7 @@
     "test": "nightwatch",
     "lint": "eslint ./",
     "test:browserstackWindows": "nightwatch -c nightwatch.browserstack.conf.js -e Windows",
-    "testapi": "newman run 'Backend/Collection/TODOIST.postman_collection.json' -e 'Backend/environment/EnvTODOIST.postman_environment.json' -r htmlextra --reporter-htmlextra-export 'Backend/Reports'"
+    "testapi": "newman run './Backend/Collection/TODOIST.postman_collection.json' -e './Backend/environment/EnvTODOIST.postman_environment.json' -r htmlextra --reporter-htmlextra-export 'Backend/Reports'"
   },
   "keywords": [],
   "author": "",
