@@ -30,10 +30,13 @@ jobs:
       run: |
        npm install -g newman
        npm install -g newman-reporter-htmlextra
+       ls
 
     # Make directory to upload the test results
     - name: Make Directory for results
-      run: mkdir -p testResults
+      run: 
+          mkdir -p testResults
+          ls
 
 
     # Run the POSTMAN collection
