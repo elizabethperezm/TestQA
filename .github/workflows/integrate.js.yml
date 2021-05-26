@@ -1,16 +1,15 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: E2E
+name: Back test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ challenge ]
   pull_request:
-    branches: [ master ]
-
+    branches: [ challenge ]
 jobs:
- newman:
+  newman:
     name: Run Newman test
     runs-on: ubuntu-latest
     steps:
@@ -23,17 +22,4 @@ jobs:
        npm install -g newman
     - name: Run POSTMAN collection
       run: |
-       newman run ./Backend/Collection/TODOIST.postman_collection.json -e ./Backend/environment/EnvTODOIST.postman_environment.json
-     
- windows10_test:
-    name: Run Windows 10 Nigthwatch Tests
-    runs-on: windows-latest
-    steps:
-      - name: Check out the repository
-        uses: actions/checkout@v1
-      - name: Install Nigthwatch BrowserStack plugin
-        run: npm install nightwatch-browserstack
-      - name: Eslint
-        run: npm run lint
-      - name: BrowserStack
-        run: npm run test:browserstackWindows
+       newman run ./Todoist/backend/collection/Todoist.postman_collection.json -e ./Todoist/backend/envVariables/QA.postman_environment.json
