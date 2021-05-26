@@ -22,4 +22,4 @@ jobs:
        npm install -g newman
     - name: Run POSTMAN collection
       run: |
-       newman run ./Backend/collection/TODOIST.postman_collection.json -e ./Todoist/backend/envVariables/QA.postman_environment.json
+       newman run ./Backend/collection/TODOIST.postman_collection.json -e ./Backend/environment/EnvTODOIST.postman_environment.json
