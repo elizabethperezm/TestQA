@@ -8,9 +8,6 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-env:
-      BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
-      BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
 
 jobs:
   newman:
@@ -35,8 +32,9 @@ jobs:
     # Make directory to upload the test results
     - name: Make Directory for results
       run: 
-          mkdir -p testResults
           ls
+          mkdir -p testResults
+
 
 
     # Run the POSTMAN collection
