@@ -16,10 +16,11 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [10.x, 12.x, 14.x, 15.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [14.x]
 
     steps:
     - uses: actions/checkout@v2
+    - uses: actions/setup-node@v1
     - name: Eslint
-      run: npm run lint
+    - run: npm install eslint
+    - run: npm run lint
