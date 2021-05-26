@@ -5,9 +5,9 @@ name: Back test
 
 on:
   push:
-    branches: [ challenge ]
+    branches: [ master ]
   pull_request:
-    branches: [ challenge ]
+    branches: [ master ]
 jobs:
   newman:
     name: Run Newman test
