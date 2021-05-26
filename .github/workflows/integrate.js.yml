@@ -23,7 +23,7 @@ jobs:
        npm install -g newman
     - name: Run POSTMAN collection
       run: |
-       newman run ./Backend/Collection/TODOIST.postman_collection.json -e ./Todoist/backend/envVariables/QA.postman_environment.json
+       newman run ./Backend/Collection/TODOIST.postman_collection.json -e ./Backend/environment/EnvTODOIST.postman_environment.json
      
  windows10_test:
     name: Run Windows 10 Nigthwatch Tests
