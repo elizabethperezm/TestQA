@@ -31,9 +31,7 @@ jobs:
 
     # Make directory to upload the test results
     - name: Make Directory for results
-      run: 
-          ls
-          mkdir -p testResults
+      run: mkdir -p testResults
 
 
 
