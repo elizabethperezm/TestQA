@@ -22,7 +22,5 @@ jobs:
         uses: actions/checkout@v1
       - name: Install Nigthwatch BrowserStack plugin
         run: npm install nightwatch-browserstack
-      - name: Eslint
-        run: npm run lint
       - name: BrowserStack
         run: npm run test:browserstackWindows
