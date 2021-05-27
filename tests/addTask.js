@@ -33,11 +33,14 @@ module.exports ={
         const pageMain = browser.page.mainPage()
         pageMain
             .waitElement('@inbox')
-
+            .waitElement('@warningBtn')
+            .clickBtn('@warningBtn')
+            .pause(3000)
             .waitElement('@addtaskIcon')
             .clickBtn('@addtaskIcon')
             .waitElement('@tasknameField')
             .setValue('@tasknameField', 'Only one task test')
+            .pause(2000)
             .waitElement('@submittaskBtn')
             .pause(2000)
             .clickBtn('@submittaskBtn')

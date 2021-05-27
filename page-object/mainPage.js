@@ -8,7 +8,8 @@ module.exports = {
         cancelBtn : 'button.cancel',
         tasknameField : 'div.public-DraftStyleDefault-block.public-DraftStyleDefault-ltr',
         allTasks : 'div.markdown_content.task_content',
-        completeTask: '.task_checkbox__circle'
+        completeTask: '.task_checkbox__circle',
+        warningBtn: 'a.ist_button.ist_button_red.ist_button_big.timezone_button:nth-child(2)'
 
     },
     commands:[{
