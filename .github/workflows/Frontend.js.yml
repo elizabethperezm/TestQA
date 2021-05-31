@@ -23,4 +23,4 @@ jobs:
       - name: Install Nigthwatch BrowserStack plugin
         run: npm install nightwatch-browserstack
       - name: BrowserStack
-        run: npm run test:browserstackWindows
+        run: npm run test:browserstack
