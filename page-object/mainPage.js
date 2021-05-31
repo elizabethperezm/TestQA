@@ -9,7 +9,7 @@ module.exports = {
         tasknameField : 'div.public-DraftStyleDefault-block.public-DraftStyleDefault-ltr',
         allTasks : 'div.markdown_content.task_content',
         completeTask: '.task_checkbox__circle',
-        warningBtn: 'a.ist_button.ist_button_red.ist_button_big.timezone_button:nth-child(2)'
+        warningBtn: 'a.timezone_link.timezone_link_block:nth-child(4)'
 
     },
     commands:[{
