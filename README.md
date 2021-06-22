@@ -19,7 +19,7 @@ cd TestQA
 ```bash
 npm install
 ```
-# Running the tests
+# Running the test
 * Run test in local browser:
 ```bash
 npm run test:local
