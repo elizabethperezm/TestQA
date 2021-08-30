@@ -17,7 +17,7 @@ cd TestQA
 ```
 * Install 
 ```bash
-npm install
+npm install.
 ```
 # Running the test
 * Run test in local browser:
