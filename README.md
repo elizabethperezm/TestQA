@@ -1,7 +1,7 @@
 # QA Buddy Program
 This repository contains a Todoist automation framework for backend and E2E testing. This automation framework involves technologies as Nightwatch, Newman, BrowserStack, Eslint, Github actins integration and Slack notifications.
 
-## Goals
+## Goals.
 * Implement Page Object Model with Nigthwatch framework for Frontend Automation.
 * Use Eslint for static analysis and assure code standards.
 * Implement Backend Automation with Newman.
